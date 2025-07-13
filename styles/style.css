@@ -217,3 +217,33 @@ header{
 .resume hr{
     margin: 24px 0;
 }
+
+.footer-content{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footer-logo, form{
+    width: 40%;
+}
+
+.footer-logo > p > img{
+    margin: 24px 16px 0 0;
+}
+
+#name, #email, #text-area{
+    display: block;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 48px 0;
+    font-size: 24px;
+}
